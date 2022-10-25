@@ -6,16 +6,23 @@ public class BrowserCommonCommands extends URLLoading{
 	
 	public void browserCommands() {
 		actualBrowserTitle = driver.getTitle();
-		System.out.println(" Actual Title is : " +actualBrowserTitle);
 		actualBrowserURL = driver.getCurrentUrl();
-		System.out.println(" Actual URL is : " +actualBrowserURL);
+	}
+	public void navigateBrowserCommands(){
+		driver.navigate().to("https://www.toolsqa.com/automation-practice-form/");
+		driver.navigate().back();
+		driver.navigate().forward();
+		driver.navigate().refresh();
+		
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		BrowserCommonCommands obj = new BrowserCommonCommands();
 		obj.initializeBrowser();
 		obj.browserCommands();
-		obj.browserClose();
+		obj.navigateBrowserCommands();
+		//obj.browserClose();
+		obj.browserQuit();
 	}
 
 }
