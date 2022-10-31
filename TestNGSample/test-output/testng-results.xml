@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45615" started-at="2022-10-31T18:02:44Z" finished-at="2022-10-31T18:03:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45615" started-at="2022-10-31T18:02:44Z" finished-at="2022-10-31T18:03:30Z">
+      <class name="com.obsqura.TestNGSample.BrowserCommands">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGSample.BrowserCommands@49993335]" name="initializeBrowser" is-config="true" duration-ms="22497" started-at="2022-10-31T18:02:44Z" finished-at="2022-10-31T18:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="navigateAndCheck()[pri:0, instance:com.obsqura.TestNGSample.BrowserCommands@49993335]" name="navigateAndCheck" duration-ms="1990" started-at="2022-10-31T18:03:07Z" finished-at="2022-10-31T18:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateAndCheck -->
+        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.obsqura.TestNGSample.BrowserCommands@49993335]" name="browserQuit" is-config="true" duration-ms="694" started-at="2022-10-31T18:03:09Z" finished-at="2022-10-31T18:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGSample.BrowserCommands@49993335]" name="initializeBrowser" is-config="true" duration-ms="6098" started-at="2022-10-31T18:03:09Z" finished-at="2022-10-31T18:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="verifyPageSource()[pri:0, instance:com.obsqura.TestNGSample.BrowserCommands@49993335]" name="verifyPageSource" duration-ms="171" started-at="2022-10-31T18:03:16Z" finished-at="2022-10-31T18:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageSource -->
+        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.obsqura.TestNGSample.BrowserCommands@49993335]" name="browserQuit" is-config="true" duration-ms="696" started-at="2022-10-31T18:03:16Z" finished-at="2022-10-31T18:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGSample.BrowserCommands@49993335]" name="initializeBrowser" is-config="true" duration-ms="6700" started-at="2022-10-31T18:03:16Z" finished-at="2022-10-31T18:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.obsqura.TestNGSample.BrowserCommands@49993335]" name="verifyTitle" duration-ms="25" started-at="2022-10-31T18:03:23Z" finished-at="2022-10-31T18:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.obsqura.TestNGSample.BrowserCommands@49993335]" name="browserQuit" is-config="true" duration-ms="694" started-at="2022-10-31T18:03:23Z" finished-at="2022-10-31T18:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGSample.BrowserCommands@49993335]" name="initializeBrowser" is-config="true" duration-ms="5334" started-at="2022-10-31T18:03:24Z" finished-at="2022-10-31T18:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="verifyURL()[pri:0, instance:com.obsqura.TestNGSample.BrowserCommands@49993335]" name="verifyURL" duration-ms="16" started-at="2022-10-31T18:03:29Z" finished-at="2022-10-31T18:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURL -->
+        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.obsqura.TestNGSample.BrowserCommands@49993335]" name="browserQuit" is-config="true" duration-ms="676" started-at="2022-10-31T18:03:29Z" finished-at="2022-10-31T18:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsqura.TestNGSample.BrowserCommands -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
