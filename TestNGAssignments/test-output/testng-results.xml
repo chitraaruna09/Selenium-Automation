@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61005" started-at="2022-11-01T18:22:54Z" finished-at="2022-11-01T18:23:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61005" started-at="2022-11-01T18:22:54Z" finished-at="2022-11-01T18:23:55Z">
+      <class name="com.obsqura.TestNGAssignments.HardAssertionSample">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.HardAssertionSample@49993335]" name="initializeBrowser" is-config="true" duration-ms="14320" started-at="2022-11-01T18:22:54Z" finished-at="2022-11-01T18:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="notNullCheck()[pri:0, instance:com.obsqura.TestNGAssignments.HardAssertionSample@49993335]" name="notNullCheck" duration-ms="43" started-at="2022-11-01T18:23:08Z" description="Verifying the driver returns null or not" finished-at="2022-11-01T18:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notNullCheck -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.HardAssertionSample@49993335]" name="browserClose" is-config="true" duration-ms="16198" started-at="2022-11-01T18:23:08Z" finished-at="2022-11-01T18:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.HardAssertionSample@49993335]" name="initializeBrowser" is-config="true" duration-ms="14206" started-at="2022-11-01T18:23:24Z" finished-at="2022-11-01T18:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.obsqura.TestNGAssignments.HardAssertionSample@49993335]" name="verifyTitle" duration-ms="13" started-at="2022-11-01T18:23:39Z" description="Verifying the title of the page" finished-at="2022-11-01T18:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.HardAssertionSample@49993335]" name="browserClose" is-config="true" duration-ms="16205" started-at="2022-11-01T18:23:39Z" finished-at="2022-11-01T18:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.obsqura.TestNGAssignments.HardAssertionSample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

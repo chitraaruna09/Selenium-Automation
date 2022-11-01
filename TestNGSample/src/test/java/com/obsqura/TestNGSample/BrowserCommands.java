@@ -23,10 +23,10 @@ public class BrowserCommands extends Base {
 
 	@Test
 	public void verifyPageSource() {
-		String actualPageSource;
+		String actualPageSource, pageSourceText = "Search in";
 		// getting page source details
 		actualPageSource = driver.getPageSource();
-		Assert.assertTrue(actualPageSource.contains(actualPageSource), "Page Source is not Found");
+		Assert.assertTrue(actualPageSource.contains(pageSourceText), "Page Source is not Found");
 	}
 
 	@Test
