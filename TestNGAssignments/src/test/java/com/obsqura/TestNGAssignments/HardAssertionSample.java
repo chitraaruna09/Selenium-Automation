@@ -10,15 +10,10 @@ public class HardAssertionSample extends Base {
 		String expectedTitle = "Grocerystore", actualTitle;
 		actualTitle = driver.getTitle();
 		Assert.assertEquals(expectedTitle, actualTitle, "Expected and actual title are same");
-
 	}
 
 	@Test(description = "Verifying the driver returns null or not")
 	public void notNullCheck() {
-		boolean verifyPageSource = driver.getPageSource().contains("Search");
-		// boolean verifyPageSource = driver.getPageSource().contains(null);
-		Assert.assertNotNull(verifyPageSource);
-
+		Assert.assertNotNull(driver);
 	}
-
 }
