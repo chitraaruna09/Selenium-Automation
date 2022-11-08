@@ -3,7 +3,17 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.obsqura.TestNGAssignments.BrowserCommands"/>
+<!--       <class name="com.obsqura.TestNGAssignments.BrowserCommands"/> -->
+
+      <!-- <class name="com.obsqura.TestNGAssignments.LocatorsExample">
+      <methods>
+      		<include name= "locateUsingXPathID"/>
+      		<include name= "locateXPathClassName"/>
+      		<include name= "locateXPathName"/>
+      		<include name= "locateCSSSelectorClass"/>
+      </methods>
+      </class> -->
+      <class name="com.obsqura.TestNGAssignments.ExecutionSpeed"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
