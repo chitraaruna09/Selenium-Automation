@@ -13,7 +13,8 @@
       		<include name= "locateCSSSelectorClass"/>
       </methods>
       </class> -->
-      <class name="com.obsqura.TestNGAssignments.ExecutionSpeed"/>
+<!--       <class name="com.obsqura.TestNGAssignments.ExecutionSpeed"/> -->
+      <class name="com.obsqura.TestNGAssignments.WebElementCommands"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

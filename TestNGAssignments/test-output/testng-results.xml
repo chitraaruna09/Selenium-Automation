@@ -1,73 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="85464" started-at="2022-11-08T17:45:40Z" finished-at="2022-11-08T17:47:06Z">
+  <suite name="Suite" duration-ms="45218" started-at="2022-11-09T17:34:35Z" finished-at="2022-11-09T17:35:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="85464" started-at="2022-11-08T17:45:40Z" finished-at="2022-11-08T17:47:06Z">
-      <class name="com.obsqura.TestNGAssignments.ExecutionSpeed">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="initializeBrowser" is-config="true" duration-ms="5305" started-at="2022-11-08T17:45:40Z" finished-at="2022-11-08T17:45:46Z">
+    <test name="Test" duration-ms="45218" started-at="2022-11-09T17:34:35Z" finished-at="2022-11-09T17:35:20Z">
+      <class name="com.obsqura.TestNGAssignments.WebElementCommands">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementCommands@49993335]" name="initializeBrowser" is-config="true" duration-ms="2728" started-at="2022-11-09T17:34:35Z" finished-at="2022-11-09T17:34:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="locatingByCSSSelectorID()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="locatingByCSSSelectorID" duration-ms="145" started-at="2022-11-08T17:45:46Z" description="Locating the element using CSSSelector ID" finished-at="2022-11-08T17:45:46Z">
+        <test-method status="PASS" signature="sendKeyInputFieldsStringSum()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementCommands@49993335]" name="sendKeyInputFieldsStringSum" duration-ms="3745" started-at="2022-11-09T17:34:38Z" description="SendKey two input fields string values checking" finished-at="2022-11-09T17:34:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locatingByCSSSelectorID -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="browserClose" is-config="true" duration-ms="16207" started-at="2022-11-08T17:45:46Z" finished-at="2022-11-08T17:46:02Z">
+        </test-method> <!-- sendKeyInputFieldsStringSum -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementCommands@49993335]" name="browserClose" is-config="true" duration-ms="16294" started-at="2022-11-09T17:34:41Z" finished-at="2022-11-09T17:34:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="initializeBrowser" is-config="true" duration-ms="4482" started-at="2022-11-08T17:46:02Z" finished-at="2022-11-08T17:46:06Z">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementCommands@49993335]" name="initializeBrowser" is-config="true" duration-ms="1262" started-at="2022-11-09T17:34:58Z" finished-at="2022-11-09T17:34:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="locatingByClassName()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="locatingByClassName" duration-ms="304" started-at="2022-11-08T17:46:06Z" description="Locating the element using Class Name" finished-at="2022-11-08T17:46:07Z">
+        <test-method status="PASS" signature="sendKeyInputFieldsSum()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementCommands@49993335]" name="sendKeyInputFieldsSum" duration-ms="4884" started-at="2022-11-09T17:34:59Z" description="SendKey two input fields numeric values checking" finished-at="2022-11-09T17:35:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locatingByClassName -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="browserClose" is-config="true" duration-ms="16185" started-at="2022-11-08T17:46:07Z" finished-at="2022-11-08T17:46:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="initializeBrowser" is-config="true" duration-ms="15882" started-at="2022-11-08T17:46:23Z" finished-at="2022-11-08T17:46:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="locatingByID()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="locatingByID" duration-ms="125" started-at="2022-11-08T17:46:39Z" description="Locating the element using ID" finished-at="2022-11-08T17:46:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- locatingByID -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="browserClose" is-config="true" duration-ms="16201" started-at="2022-11-08T17:46:39Z" finished-at="2022-11-08T17:46:55Z">
+        </test-method> <!-- sendKeyInputFieldsSum -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementCommands@49993335]" name="browserClose" is-config="true" duration-ms="16285" started-at="2022-11-09T17:35:04Z" finished-at="2022-11-09T17:35:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="initializeBrowser" is-config="true" duration-ms="5446" started-at="2022-11-08T17:46:55Z" finished-at="2022-11-08T17:47:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="locatingByName()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="locatingByName" duration-ms="13" started-at="2022-11-08T17:47:01Z" description="Locating the element using Name" finished-at="2022-11-08T17:47:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- locatingByName -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="browserClose" is-config="true" duration-ms="147" started-at="2022-11-08T17:47:01Z" finished-at="2022-11-08T17:47:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="initializeBrowser" is-config="true" duration-ms="4840" started-at="2022-11-08T17:47:01Z" finished-at="2022-11-08T17:47:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="locatingByXPathID()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="locatingByXPathID" duration-ms="33" started-at="2022-11-08T17:47:06Z" description="Locating the element using XPath ID" finished-at="2022-11-08T17:47:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- locatingByXPathID -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.ExecutionSpeed@49993335]" name="browserClose" is-config="true" duration-ms="124" started-at="2022-11-08T17:47:06Z" finished-at="2022-11-08T17:47:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- com.obsqura.TestNGAssignments.ExecutionSpeed -->
+      </class> <!-- com.obsqura.TestNGAssignments.WebElementCommands -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
