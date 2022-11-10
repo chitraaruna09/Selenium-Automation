@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="45218" started-at="2022-11-09T17:34:35Z" finished-at="2022-11-09T17:35:20Z">
+  <suite name="Suite" duration-ms="61173" started-at="2022-11-10T20:04:39Z" finished-at="2022-11-10T20:05:40Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="45218" started-at="2022-11-09T17:34:35Z" finished-at="2022-11-09T17:35:20Z">
-      <class name="com.obsqura.TestNGAssignments.WebElementCommands">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementCommands@49993335]" name="initializeBrowser" is-config="true" duration-ms="2728" started-at="2022-11-09T17:34:35Z" finished-at="2022-11-09T17:34:38Z">
+    <test name="Test" duration-ms="61173" started-at="2022-11-10T20:04:39Z" finished-at="2022-11-10T20:05:40Z">
+      <class name="com.obsqura.TestNGAssignments.WebElementsCSSSample">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="initializeBrowser" is-config="true" duration-ms="2591" started-at="2022-11-10T20:04:39Z" finished-at="2022-11-10T20:04:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="sendKeyInputFieldsStringSum()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementCommands@49993335]" name="sendKeyInputFieldsStringSum" duration-ms="3745" started-at="2022-11-09T17:34:38Z" description="SendKey two input fields string values checking" finished-at="2022-11-09T17:34:41Z">
+        <test-method status="PASS" signature="getBtnPositions()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="getBtnPositions" duration-ms="2580" started-at="2022-11-10T20:04:42Z" description="CSS attribute Widgets Positions comparing" finished-at="2022-11-10T20:04:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sendKeyInputFieldsStringSum -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementCommands@49993335]" name="browserClose" is-config="true" duration-ms="16294" started-at="2022-11-09T17:34:41Z" finished-at="2022-11-09T17:34:58Z">
+        </test-method> <!-- getBtnPositions -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="browserClose" is-config="true" duration-ms="16253" started-at="2022-11-10T20:04:44Z" finished-at="2022-11-10T20:05:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementCommands@49993335]" name="initializeBrowser" is-config="true" duration-ms="1262" started-at="2022-11-09T17:34:58Z" finished-at="2022-11-09T17:34:59Z">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="initializeBrowser" is-config="true" duration-ms="1283" started-at="2022-11-10T20:05:00Z" finished-at="2022-11-10T20:05:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="sendKeyInputFieldsSum()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementCommands@49993335]" name="sendKeyInputFieldsSum" duration-ms="4884" started-at="2022-11-09T17:34:59Z" description="SendKey two input fields numeric values checking" finished-at="2022-11-09T17:35:04Z">
+        <test-method status="PASS" signature="getCSSBgColorValue()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="getCSSBgColorValue" duration-ms="2190" started-at="2022-11-10T20:05:02Z" description="CSS attribute Background Color comparing" finished-at="2022-11-10T20:05:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sendKeyInputFieldsSum -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementCommands@49993335]" name="browserClose" is-config="true" duration-ms="16285" started-at="2022-11-09T17:35:04Z" finished-at="2022-11-09T17:35:20Z">
+        </test-method> <!-- getCSSBgColorValue -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="browserClose" is-config="true" duration-ms="16231" started-at="2022-11-10T20:05:04Z" finished-at="2022-11-10T20:05:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-      </class> <!-- com.obsqura.TestNGAssignments.WebElementCommands -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="initializeBrowser" is-config="true" duration-ms="1305" started-at="2022-11-10T20:05:20Z" finished-at="2022-11-10T20:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="getCSSFontColorValue()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="getCSSFontColorValue" duration-ms="2520" started-at="2022-11-10T20:05:21Z" description="CSS attribute Widget Font Color comparing" finished-at="2022-11-10T20:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCSSFontColorValue -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="browserClose" is-config="true" duration-ms="16193" started-at="2022-11-10T20:05:24Z" finished-at="2022-11-10T20:05:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.obsqura.TestNGAssignments.WebElementsCSSSample -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

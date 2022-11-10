@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.obsqura.TestNGAssignments.WebElementCommands">
+      <class name="com.obsqura.TestNGAssignments.WebElementsCSSSample">
         <methods>
           <include name="browserClose"/>
-          <include name="sendKeyInputFieldsStringSum"/>
+          <include name="getCSSFontColorValue"/>
           <include name="initializeBrowser"/>
         </methods>
-      </class> <!-- com.obsqura.TestNGAssignments.WebElementCommands -->
+      </class> <!-- com.obsqura.TestNGAssignments.WebElementsCSSSample -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
