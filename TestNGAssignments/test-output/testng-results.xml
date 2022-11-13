@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="61173" started-at="2022-11-10T20:04:39Z" finished-at="2022-11-10T20:05:40Z">
+  <suite name="Suite" duration-ms="30224" started-at="2022-11-13T20:50:44Z" finished-at="2022-11-13T20:51:14Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="61173" started-at="2022-11-10T20:04:39Z" finished-at="2022-11-10T20:05:40Z">
-      <class name="com.obsqura.TestNGAssignments.WebElementsCSSSample">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="initializeBrowser" is-config="true" duration-ms="2591" started-at="2022-11-10T20:04:39Z" finished-at="2022-11-10T20:04:42Z">
+    <test name="Test" duration-ms="30224" started-at="2022-11-13T20:50:44Z" finished-at="2022-11-13T20:51:14Z">
+      <class name="com.obsqura.TestNGAssignments.FormSubmit">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.FormSubmit@49993335]" name="initializeBrowser" is-config="true" duration-ms="2609" started-at="2022-11-13T20:50:44Z" finished-at="2022-11-13T20:50:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="getBtnPositions()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="getBtnPositions" duration-ms="2580" started-at="2022-11-10T20:04:42Z" description="CSS attribute Widgets Positions comparing" finished-at="2022-11-10T20:04:44Z">
+        <test-method status="PASS" signature="formSubmit()[pri:0, instance:com.obsqura.TestNGAssignments.FormSubmit@49993335]" name="formSubmit" duration-ms="11352" started-at="2022-11-13T20:50:47Z" description="Form Subimt webelements locating" finished-at="2022-11-13T20:50:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getBtnPositions -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="browserClose" is-config="true" duration-ms="16253" started-at="2022-11-10T20:04:44Z" finished-at="2022-11-10T20:05:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="initializeBrowser" is-config="true" duration-ms="1283" started-at="2022-11-10T20:05:00Z" finished-at="2022-11-10T20:05:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="getCSSBgColorValue()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="getCSSBgColorValue" duration-ms="2190" started-at="2022-11-10T20:05:02Z" description="CSS attribute Background Color comparing" finished-at="2022-11-10T20:05:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getCSSBgColorValue -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="browserClose" is-config="true" duration-ms="16231" started-at="2022-11-10T20:05:04Z" finished-at="2022-11-10T20:05:20Z">
+        </test-method> <!-- formSubmit -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.FormSubmit@49993335]" name="browserClose" is-config="true" duration-ms="16245" started-at="2022-11-13T20:50:58Z" finished-at="2022-11-13T20:51:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="initializeBrowser" is-config="true" duration-ms="1305" started-at="2022-11-10T20:05:20Z" finished-at="2022-11-10T20:05:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="getCSSFontColorValue()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="getCSSFontColorValue" duration-ms="2520" started-at="2022-11-10T20:05:21Z" description="CSS attribute Widget Font Color comparing" finished-at="2022-11-10T20:05:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getCSSFontColorValue -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.WebElementsCSSSample@49993335]" name="browserClose" is-config="true" duration-ms="16193" started-at="2022-11-10T20:05:24Z" finished-at="2022-11-10T20:05:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- com.obsqura.TestNGAssignments.WebElementsCSSSample -->
+      </class> <!-- com.obsqura.TestNGAssignments.FormSubmit -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

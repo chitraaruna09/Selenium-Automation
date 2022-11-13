@@ -15,7 +15,8 @@
       </class> -->
 <!--       <class name="com.obsqura.TestNGAssignments.ExecutionSpeed"/> -->
 <!--       <class name="com.obsqura.TestNGAssignments.WebElementCommands"/> -->
-      <class name="com.obsqura.TestNGAssignments.WebElementsCSSSample"/>
+<!--       <class name="com.obsqura.TestNGAssignments.WebElementsCSSSample"/> -->
+      <class name = "com.obsqura.TestNGAssignments.FormSubmit"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
