@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="30224" started-at="2022-11-13T20:50:44Z" finished-at="2022-11-13T20:51:14Z">
+  <suite name="Suite" duration-ms="16" started-at="2022-11-16T15:50:27Z" finished-at="2022-11-16T15:50:27Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="30224" started-at="2022-11-13T20:50:44Z" finished-at="2022-11-13T20:51:14Z">
-      <class name="com.obsqura.TestNGAssignments.FormSubmit">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.FormSubmit@49993335]" name="initializeBrowser" is-config="true" duration-ms="2609" started-at="2022-11-13T20:50:44Z" finished-at="2022-11-13T20:50:47Z">
+    <test name="Test" duration-ms="16" started-at="2022-11-16T15:50:27Z" finished-at="2022-11-16T15:50:27Z">
+      <class name="com.obsqura.TestNGAssignments.AnnotationSample">
+        <test-method status="PASS" signature="beforeSuiteSample()[pri:0, instance:com.obsqura.TestNGAssignments.AnnotationSample@6adede5]" name="beforeSuiteSample" is-config="true" duration-ms="15" started-at="2022-11-16T15:50:27Z" finished-at="2022-11-16T15:50:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="formSubmit()[pri:0, instance:com.obsqura.TestNGAssignments.FormSubmit@49993335]" name="formSubmit" duration-ms="11352" started-at="2022-11-13T20:50:47Z" description="Form Subimt webelements locating" finished-at="2022-11-13T20:50:58Z">
+        </test-method> <!-- beforeSuiteSample -->
+        <test-method status="PASS" signature="beforeClassSample()[pri:0, instance:com.obsqura.TestNGAssignments.AnnotationSample@6adede5]" name="beforeClassSample" is-config="true" duration-ms="0" started-at="2022-11-16T15:50:27Z" finished-at="2022-11-16T15:50:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- formSubmit -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.FormSubmit@49993335]" name="browserClose" is-config="true" duration-ms="16245" started-at="2022-11-13T20:50:58Z" finished-at="2022-11-13T20:51:14Z">
+        </test-method> <!-- beforeClassSample -->
+        <test-method status="PASS" signature="beforeMethodSample()[pri:0, instance:com.obsqura.TestNGAssignments.AnnotationSample@6adede5]" name="beforeMethodSample" is-config="true" duration-ms="0" started-at="2022-11-16T15:50:27Z" finished-at="2022-11-16T15:50:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- com.obsqura.TestNGAssignments.FormSubmit -->
+        </test-method> <!-- beforeMethodSample -->
+        <test-method status="PASS" signature="beforeTestSample()[pri:0, instance:com.obsqura.TestNGAssignments.AnnotationSample@6adede5]" name="beforeTestSample" is-config="true" duration-ms="0" started-at="2022-11-16T15:50:27Z" finished-at="2022-11-16T15:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestSample -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.obsqura.TestNGAssignments.AnnotationSample@6adede5]" name="testCase1" duration-ms="16" started-at="2022-11-16T15:50:27Z" finished-at="2022-11-16T15:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.obsqura.TestNGAssignments.AnnotationSample@6adede5]" name="testCase2" duration-ms="0" started-at="2022-11-16T15:50:27Z" finished-at="2022-11-16T15:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="afterClassSample()[pri:0, instance:com.obsqura.TestNGAssignments.AnnotationSample@6adede5]" name="afterClassSample" is-config="true" duration-ms="0" started-at="2022-11-16T15:50:27Z" finished-at="2022-11-16T15:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassSample -->
+        <test-method status="PASS" signature="afterMethodSample()[pri:0, instance:com.obsqura.TestNGAssignments.AnnotationSample@6adede5]" name="afterMethodSample" is-config="true" duration-ms="0" started-at="2022-11-16T15:50:27Z" finished-at="2022-11-16T15:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodSample -->
+        <test-method status="PASS" signature="afterTestSample()[pri:0, instance:com.obsqura.TestNGAssignments.AnnotationSample@6adede5]" name="afterTestSample" is-config="true" duration-ms="0" started-at="2022-11-16T15:50:27Z" finished-at="2022-11-16T15:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestSample -->
+        <test-method status="PASS" signature="beforeMethodSample()[pri:0, instance:com.obsqura.TestNGAssignments.AnnotationSample@6adede5]" name="beforeMethodSample" is-config="true" duration-ms="0" started-at="2022-11-16T15:50:27Z" finished-at="2022-11-16T15:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSample -->
+        <test-method status="PASS" signature="afterMethodSample()[pri:0, instance:com.obsqura.TestNGAssignments.AnnotationSample@6adede5]" name="afterMethodSample" is-config="true" duration-ms="0" started-at="2022-11-16T15:50:27Z" finished-at="2022-11-16T15:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodSample -->
+        <test-method status="PASS" signature="afterSuiteSample()[pri:0, instance:com.obsqura.TestNGAssignments.AnnotationSample@6adede5]" name="afterSuiteSample" is-config="true" duration-ms="0" started-at="2022-11-16T15:50:27Z" finished-at="2022-11-16T15:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteSample -->
+      </class> <!-- com.obsqura.TestNGAssignments.AnnotationSample -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
