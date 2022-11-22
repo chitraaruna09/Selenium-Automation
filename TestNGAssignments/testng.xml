@@ -18,7 +18,9 @@
 <!--       <class name="com.obsqura.TestNGAssignments.WebElementsCSSSample"/> -->
 <!--       <class name = "com.obsqura.TestNGAssignments.FormSubmit"/> -->
 <!--       <class name = "com.obsqura.TestNGAssignments.AnnotationSample"/> -->
-      <class name = "com.obsqura.TestNGAssignments.RadioButtonSample"/>
+      <!-- <class name = "com.obsqura.TestNGAssignments.RadioButtonSample"/> -->
+<!--       <class name = "com.obsqura.TestNGAssignments.SelectDropDownOption"/> -->
+      <class name = "com.obsqura.TestNGAssignments.CheckBoxTutorialSite"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

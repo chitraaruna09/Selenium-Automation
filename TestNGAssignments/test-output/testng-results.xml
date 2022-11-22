@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32395" started-at="2022-11-21T17:58:50Z" finished-at="2022-11-21T17:59:23Z">
+  <suite name="Suite" duration-ms="66322" started-at="2022-11-22T20:53:33Z" finished-at="2022-11-22T20:54:39Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="32395" started-at="2022-11-21T17:58:50Z" finished-at="2022-11-21T17:59:23Z">
-      <class name="com.obsqura.TestNGAssignments.RadioButtonSample">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.RadioButtonSample@49993335]" name="initializeBrowser" is-config="true" duration-ms="8945" started-at="2022-11-21T17:58:50Z" finished-at="2022-11-21T17:58:59Z">
+    <test name="Test" duration-ms="66322" started-at="2022-11-22T20:53:33Z" finished-at="2022-11-22T20:54:39Z">
+      <class name="com.obsqura.TestNGAssignments.CheckBoxTutorialSite">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.CheckBoxTutorialSite@49993335]" name="initializeBrowser" is-config="true" duration-ms="34175" started-at="2022-11-22T20:53:33Z" finished-at="2022-11-22T20:54:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="noRadioButtonChecked()[pri:0, instance:com.obsqura.TestNGAssignments.RadioButtonSample@49993335]" name="noRadioButtonChecked" duration-ms="170" started-at="2022-11-21T17:58:59Z" finished-at="2022-11-21T17:58:59Z">
+        <test-method status="PASS" signature="checkBoxesSelectedOrNot()[pri:0, instance:com.obsqura.TestNGAssignments.CheckBoxTutorialSite@49993335]" name="checkBoxesSelectedOrNot" duration-ms="282" started-at="2022-11-22T20:54:07Z" finished-at="2022-11-22T20:54:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- noRadioButtonChecked -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.RadioButtonSample@49993335]" name="browserClose" is-config="true" duration-ms="121" started-at="2022-11-21T17:58:59Z" finished-at="2022-11-21T17:59:00Z">
+        </test-method> <!-- checkBoxesSelectedOrNot -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.CheckBoxTutorialSite@49993335]" name="browserClose" is-config="true" duration-ms="182" started-at="2022-11-22T20:54:07Z" finished-at="2022-11-22T20:54:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.RadioButtonSample@49993335]" name="initializeBrowser" is-config="true" duration-ms="6742" started-at="2022-11-21T17:59:00Z" finished-at="2022-11-21T17:59:06Z">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.CheckBoxTutorialSite@49993335]" name="initializeBrowser" is-config="true" duration-ms="31342" started-at="2022-11-22T20:54:07Z" finished-at="2022-11-22T20:54:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="noSelectionRadioButton()[pri:0, instance:com.obsqura.TestNGAssignments.RadioButtonSample@49993335]" name="noSelectionRadioButton" duration-ms="208" started-at="2022-11-21T17:59:06Z" finished-at="2022-11-21T17:59:07Z">
+        <test-method status="PASS" signature="selectWebdriverCheckbox()[pri:0, instance:com.obsqura.TestNGAssignments.CheckBoxTutorialSite@49993335]" name="selectWebdriverCheckbox" duration-ms="99" started-at="2022-11-22T20:54:39Z" finished-at="2022-11-22T20:54:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- noSelectionRadioButton -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.RadioButtonSample@49993335]" name="browserClose" is-config="true" duration-ms="16192" started-at="2022-11-21T17:59:07Z" finished-at="2022-11-21T17:59:23Z">
+        </test-method> <!-- selectWebdriverCheckbox -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.CheckBoxTutorialSite@49993335]" name="browserClose" is-config="true" duration-ms="223" started-at="2022-11-22T20:54:39Z" finished-at="2022-11-22T20:54:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-      </class> <!-- com.obsqura.TestNGAssignments.RadioButtonSample -->
+      </class> <!-- com.obsqura.TestNGAssignments.CheckBoxTutorialSite -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
