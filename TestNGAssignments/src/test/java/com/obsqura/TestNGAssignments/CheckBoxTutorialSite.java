@@ -13,7 +13,7 @@ public class CheckBoxTutorialSite extends BrowserLoading{
 		chkBoxAutoTester=driver.findElement(By.xpath("//input[@value='Automation Tester']"));
 		chkBoxRcElement=driver.findElement(By.xpath("//input[@value='RC']"));
 		chkBoxSelIDE=driver.findElement(By.xpath("//input[@value='Selenium IDE']"));
-		chkBoxSelWebdriver=driver.findElement(By.xpath("//input[@value='Selenium Webdriver']"));
+		chkBoxSelWebdriver=driver.findElement(By.xpath("(//input[@type='checkbox'])[5]"));  // (//input[@type='checkbox'])[5]  // //input[@value='Selenium Webdriver']
 		if(chkBoxManualTester.isSelected() && chkBoxAutoTester.isSelected() && chkBoxRcElement.isSelected() && chkBoxSelIDE.isSelected() && chkBoxSelWebdriver.isSelected()) {
 			//System.out.println("None of the check boxes selected by default");
 			Assert.assertTrue(true, "None of the check boxes selected by default");
@@ -22,9 +22,11 @@ public class CheckBoxTutorialSite extends BrowserLoading{
 	}
 	@Test
 	public void selectWebdriverCheckbox() {
-		WebElement selWebdriver=driver.findElement(By.xpath("//input[@value='Selenium Webdriver']"));
-		selWebdriver.click();
-		if(selWebdriver.isEnabled()) {
+		WebElement selWebdriver;
+		selWebdriver=driver.findElement(By.xpath("(//input[@type='checkbox'])[5]"));
+		//selWebdriver.click();
+		if(selWebdriver.isSelected()) {
+			driver.findElement(By.xpath("(//input[@type='checkbox'])[5]")).click();
 			Assert.assertTrue(true, "Selenium webdriver is not enabled");
 		}
 			Assert.assertFalse(false, "Selenium webdriver is not enabled");

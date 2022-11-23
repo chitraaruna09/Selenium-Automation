@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="66322" started-at="2022-11-22T20:53:33Z" finished-at="2022-11-22T20:54:39Z">
+  <suite name="Suite" duration-ms="24820" started-at="2022-11-23T20:21:36Z" finished-at="2022-11-23T20:22:01Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="66322" started-at="2022-11-22T20:53:33Z" finished-at="2022-11-22T20:54:39Z">
-      <class name="com.obsqura.TestNGAssignments.CheckBoxTutorialSite">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.CheckBoxTutorialSite@49993335]" name="initializeBrowser" is-config="true" duration-ms="34175" started-at="2022-11-22T20:53:33Z" finished-at="2022-11-22T20:54:07Z">
+    <test name="Test" duration-ms="24820" started-at="2022-11-23T20:21:36Z" finished-at="2022-11-23T20:22:01Z">
+      <class name="com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown@49993335]" name="initializeBrowser" is-config="true" duration-ms="6103" started-at="2022-11-23T20:21:36Z" finished-at="2022-11-23T20:21:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="checkBoxesSelectedOrNot()[pri:0, instance:com.obsqura.TestNGAssignments.CheckBoxTutorialSite@49993335]" name="checkBoxesSelectedOrNot" duration-ms="282" started-at="2022-11-22T20:54:07Z" finished-at="2022-11-22T20:54:07Z">
+        <test-method status="PASS" signature="multiSelectDropDown()[pri:0, instance:com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown@49993335]" name="multiSelectDropDown" duration-ms="2493" started-at="2022-11-23T20:21:42Z" finished-at="2022-11-23T20:21:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkBoxesSelectedOrNot -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.CheckBoxTutorialSite@49993335]" name="browserClose" is-config="true" duration-ms="182" started-at="2022-11-22T20:54:07Z" finished-at="2022-11-22T20:54:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.CheckBoxTutorialSite@49993335]" name="initializeBrowser" is-config="true" duration-ms="31342" started-at="2022-11-22T20:54:07Z" finished-at="2022-11-22T20:54:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="selectWebdriverCheckbox()[pri:0, instance:com.obsqura.TestNGAssignments.CheckBoxTutorialSite@49993335]" name="selectWebdriverCheckbox" duration-ms="99" started-at="2022-11-22T20:54:39Z" finished-at="2022-11-22T20:54:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectWebdriverCheckbox -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.CheckBoxTutorialSite@49993335]" name="browserClose" is-config="true" duration-ms="223" started-at="2022-11-22T20:54:39Z" finished-at="2022-11-22T20:54:39Z">
+        </test-method> <!-- multiSelectDropDown -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown@49993335]" name="browserClose" is-config="true" duration-ms="16200" started-at="2022-11-23T20:21:45Z" finished-at="2022-11-23T20:22:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-      </class> <!-- com.obsqura.TestNGAssignments.CheckBoxTutorialSite -->
+      </class> <!-- com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

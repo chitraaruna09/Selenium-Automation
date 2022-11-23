@@ -20,7 +20,12 @@
 <!--       <class name = "com.obsqura.TestNGAssignments.AnnotationSample"/> -->
       <!-- <class name = "com.obsqura.TestNGAssignments.RadioButtonSample"/> -->
 <!--       <class name = "com.obsqura.TestNGAssignments.SelectDropDownOption"/> -->
-      <class name = "com.obsqura.TestNGAssignments.CheckBoxTutorialSite"/>
+<!--       <class name = "com.obsqura.TestNGAssignments.CheckBoxTutorialSite"> -->
+<!--       <methods> -->
+<!--       <include name= "selectWebdriverCheckbox"/> -->
+<!--       </methods> -->
+<!--       </class> -->
+      <class name= "com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
