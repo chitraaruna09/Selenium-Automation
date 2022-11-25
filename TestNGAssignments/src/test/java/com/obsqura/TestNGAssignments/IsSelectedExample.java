@@ -34,7 +34,7 @@ public class IsSelectedExample extends DriverLoading{
 		WebElement operaRadioButton;
 		operaRadioButton = driver.findElement(By.xpath("(//input[@name='browser'])[3]"));
 		if(operaRadioButton.isSelected()==false) {
-			operaRadioButton.click();;
+			operaRadioButton.click();
 			Assert.assertTrue(operaRadioButton.isSelected(), "Opera Radio Button is not Selected");
 		}
 		Assert.assertTrue(operaRadioButton.isSelected(), "Some other radio button is selected");
