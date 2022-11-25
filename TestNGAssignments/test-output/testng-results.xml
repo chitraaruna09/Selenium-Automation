@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24820" started-at="2022-11-23T20:21:36Z" finished-at="2022-11-23T20:22:01Z">
+  <suite name="Suite" duration-ms="57112" started-at="2022-11-25T03:28:02Z" finished-at="2022-11-25T03:28:59Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="24820" started-at="2022-11-23T20:21:36Z" finished-at="2022-11-23T20:22:01Z">
-      <class name="com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown@49993335]" name="initializeBrowser" is-config="true" duration-ms="6103" started-at="2022-11-23T20:21:36Z" finished-at="2022-11-23T20:21:42Z">
+    <test name="Test" duration-ms="57112" started-at="2022-11-25T03:28:02Z" finished-at="2022-11-25T03:28:59Z">
+      <class name="com.obsqura.TestNGAssignments.IsSelectedExample">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="initializeBrowser" is-config="true" duration-ms="8894" started-at="2022-11-25T03:28:02Z" finished-at="2022-11-25T03:28:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="multiSelectDropDown()[pri:0, instance:com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown@49993335]" name="multiSelectDropDown" duration-ms="2493" started-at="2022-11-23T20:21:42Z" finished-at="2022-11-23T20:21:45Z">
+        <test-method status="PASS" signature="verifyCheckBoxIsEnabled()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="verifyCheckBoxIsEnabled" duration-ms="72" started-at="2022-11-25T03:28:11Z" finished-at="2022-11-25T03:28:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multiSelectDropDown -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown@49993335]" name="browserClose" is-config="true" duration-ms="16200" started-at="2022-11-23T20:21:45Z" finished-at="2022-11-23T20:22:01Z">
+        </test-method> <!-- verifyCheckBoxIsEnabled -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="browserClose" is-config="true" duration-ms="132" started-at="2022-11-25T03:28:11Z" finished-at="2022-11-25T03:28:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-      </class> <!-- com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="initializeBrowser" is-config="true" duration-ms="7614" started-at="2022-11-25T03:28:11Z" finished-at="2022-11-25T03:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="verifyCheckBoxIsSelected()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="verifyCheckBoxIsSelected" duration-ms="119" started-at="2022-11-25T03:28:19Z" finished-at="2022-11-25T03:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckBoxIsSelected -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="browserClose" is-config="true" duration-ms="16221" started-at="2022-11-25T03:28:19Z" finished-at="2022-11-25T03:28:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="initializeBrowser" is-config="true" duration-ms="7726" started-at="2022-11-25T03:28:35Z" finished-at="2022-11-25T03:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="verifyOperaRadioButtonIsSelected()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="verifyOperaRadioButtonIsSelected" duration-ms="114" started-at="2022-11-25T03:28:43Z" finished-at="2022-11-25T03:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOperaRadioButtonIsSelected -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="browserClose" is-config="true" duration-ms="16187" started-at="2022-11-25T03:28:43Z" finished-at="2022-11-25T03:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.obsqura.TestNGAssignments.IsSelectedExample -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

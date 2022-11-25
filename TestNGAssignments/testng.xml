@@ -25,7 +25,12 @@
 <!--       <include name= "selectWebdriverCheckbox"/> -->
 <!--       </methods> -->
 <!--       </class> -->
-      <class name= "com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown"/>
+      <!-- <class name= "com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown"/> -->
+      <class name="com.obsqura.TestNGAssignments.IsSelectedExample">
+      <methods>
+<!--       <include name= "verifyOperaRadioButtonIsSelected"/> -->
+      </methods>
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

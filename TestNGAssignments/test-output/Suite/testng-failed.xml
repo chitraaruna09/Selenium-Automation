@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown">
+      <class name="com.obsqura.TestNGAssignments.IsSelectedExample">
         <methods>
           <include name="browserClose"/>
-          <include name="multiSelectDropDown"/>
+          <include name="verifyOperaRadioButtonIsSelected"/>
           <include name="initializeBrowser"/>
         </methods>
-      </class> <!-- com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown -->
+      </class> <!-- com.obsqura.TestNGAssignments.IsSelectedExample -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
