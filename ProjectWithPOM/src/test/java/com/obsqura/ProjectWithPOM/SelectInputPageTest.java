@@ -12,7 +12,13 @@ public class SelectInputPageTest extends Base{
 	@Test
 	public void selectColorAndVerifySelectMultipleInputColor() throws IOException {
 		SelectInputPage selectInputPageObj = new SelectInputPage(driver);
-		selectInputPageObj.verifySelectInputPage();
 		selectInputPageObj.verifySelectMultipleInputColor();
 	}
+	
+	@Test
+	public void selectColorAndVerifySelectSingleInputColor() throws IOException {
+		SelectInputPage selectInputPageObj = new SelectInputPage(driver);
+		selectInputPageObj.verifySelectInputPage();
+	}
+	
 }
