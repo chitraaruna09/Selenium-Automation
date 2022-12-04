@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="57112" started-at="2022-11-25T03:28:02Z" finished-at="2022-11-25T03:28:59Z">
+  <suite name="Suite" duration-ms="22418" started-at="2022-12-04T08:18:00Z" finished-at="2022-12-04T08:18:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="57112" started-at="2022-11-25T03:28:02Z" finished-at="2022-11-25T03:28:59Z">
-      <class name="com.obsqura.TestNGAssignments.IsSelectedExample">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="initializeBrowser" is-config="true" duration-ms="8894" started-at="2022-11-25T03:28:02Z" finished-at="2022-11-25T03:28:11Z">
+    <test name="Test" duration-ms="22418" started-at="2022-12-04T08:18:00Z" finished-at="2022-12-04T08:18:23Z">
+      <class name="com.obsqura.TestNGAssignments.LocatorsAxesMethodsSample">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.LocatorsAxesMethodsSample@36bc55de]" name="initializeBrowser" is-config="true" duration-ms="5643" started-at="2022-12-04T08:18:00Z" finished-at="2022-12-04T08:18:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="verifyCheckBoxIsEnabled()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="verifyCheckBoxIsEnabled" duration-ms="72" started-at="2022-11-25T03:28:11Z" finished-at="2022-11-25T03:28:11Z">
+        <test-method status="PASS" signature="locateAxesText()[pri:0, instance:com.obsqura.TestNGAssignments.LocatorsAxesMethodsSample@36bc55de]" name="locateAxesText" duration-ms="503" started-at="2022-12-04T08:18:06Z" description="Axes Using Text()" finished-at="2022-12-04T08:18:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCheckBoxIsEnabled -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="browserClose" is-config="true" duration-ms="132" started-at="2022-11-25T03:28:11Z" finished-at="2022-11-25T03:28:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="initializeBrowser" is-config="true" duration-ms="7614" started-at="2022-11-25T03:28:11Z" finished-at="2022-11-25T03:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="verifyCheckBoxIsSelected()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="verifyCheckBoxIsSelected" duration-ms="119" started-at="2022-11-25T03:28:19Z" finished-at="2022-11-25T03:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCheckBoxIsSelected -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="browserClose" is-config="true" duration-ms="16221" started-at="2022-11-25T03:28:19Z" finished-at="2022-11-25T03:28:35Z">
+        </test-method> <!-- locateAxesText -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.LocatorsAxesMethodsSample@36bc55de]" name="browserClose" is-config="true" duration-ms="16255" started-at="2022-12-04T08:18:07Z" finished-at="2022-12-04T08:18:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="initializeBrowser" is-config="true" duration-ms="7726" started-at="2022-11-25T03:28:35Z" finished-at="2022-11-25T03:28:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="verifyOperaRadioButtonIsSelected()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="verifyOperaRadioButtonIsSelected" duration-ms="114" started-at="2022-11-25T03:28:43Z" finished-at="2022-11-25T03:28:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyOperaRadioButtonIsSelected -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.TestNGAssignments.IsSelectedExample@49993335]" name="browserClose" is-config="true" duration-ms="16187" started-at="2022-11-25T03:28:43Z" finished-at="2022-11-25T03:28:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- com.obsqura.TestNGAssignments.IsSelectedExample -->
+      </class> <!-- com.obsqura.TestNGAssignments.LocatorsAxesMethodsSample -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

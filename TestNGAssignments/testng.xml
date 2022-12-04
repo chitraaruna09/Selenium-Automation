@@ -26,10 +26,24 @@
 <!--       </methods> -->
 <!--       </class> -->
       <!-- <class name= "com.obsqura.TestNGAssignments.MultiSelectDeselectDropDown"/> -->
-      <class name="com.obsqura.TestNGAssignments.IsSelectedExample">
-      <methods>
+<!--       <class name="com.obsqura.TestNGAssignments.IsSelectedExample"> -->
+<!--       <methods> -->
 <!--       <include name= "verifyOperaRadioButtonIsSelected"/> -->
+<!--       </methods> -->
+<!--       </class> -->
+      <class name= "com.obsqura.TestNGAssignments.LocatorsAxesMethodsSample">
+      <methods>
+<!--       <include name= "locateAxesUsingstartsWith"/> -->
+<!--       <include name="locateAxesText"/> -->
+<!--       <include name="locateAxesChild"/> -->
+<!-- 			<include name= "locateAxesParent"/> -->
+<!-- 			<include name="locateAxesAncestor"/> -->
+<!-- 			<include name="locateAxesFollowing"/> -->
+<!-- 				<include name="locateAxesPreceding"/> -->
+<!-- 				<include name="locateAxesFollowingSibling"/> -->
+				<include name="locateAxesSelf"/>
       </methods>
+      
       </class>
     </classes>
   </test> <!-- Test -->
