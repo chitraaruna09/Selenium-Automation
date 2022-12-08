@@ -11,7 +11,23 @@ public class SimpleFormTest extends Base{
 	public void enterMessageAndVerifySingleInputField() throws InterruptedException {
 		simpleFormDemoPageObj = new SimpleFormDemoPage(driver);
 		simpleFormDemoPageObj.verifySingleInputField();
+	}
+	@Test
+	public void enterMessageAndVerifyTwoInputField() {
+		simpleFormDemoPageObj = new SimpleFormDemoPage(driver);
 		simpleFormDemoPageObj.verifyTwoInputFields();
 	}
+	
+	@Test
+	public void checkAndVerifyTitleAndUrl() {
+		simpleFormDemoPageObj = new SimpleFormDemoPage(driver);
+		simpleFormDemoPageObj.verifyTitleAndUrl();
+	}
 
+	@Test
+	public void checkAndverifyDragAndDrop() {
+		simpleFormDemoPageObj = new SimpleFormDemoPage(driver);
+		simpleFormDemoPageObj.verifyDragAndDrop();
+		
+	}
 }

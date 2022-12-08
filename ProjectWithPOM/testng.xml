@@ -3,12 +3,43 @@
 <suite name="Suite">
 <!--   <test thread-count="5" name="Test" parallel ="classes">  -->
   <test name="Test">
+ <!--  <groups>
+  <run>
+  <include name="smoke"/>
+  </run>
+  </groups> -->
    <classes>
 <!--    			<class name= "com.obsqura.ProjectWithPOM.BrowserCommands"/> -->
-			<!-- <class name='com.obsqura.ProjectWithPOM.SelectInputPageTest'/> -->
+<!-- 			<class name='com.obsqura.ProjectWithPOM.SelectInputPageTest'/> -->
+			<!-- <methods>
+			 <include name="verifySelectMultipleInputColor"/>
+			</methods> -->
+<!-- 			</class> -->
 			<!-- <class name='com.obsqura.ProjectWithPOM.SelectInputPageTest1'/> -->
-			<class name='com.obsqura.ProjectWithPOM.RadioButtonDemoTest'/>
-   	
+<!-- 		<class name='com.obsqura.ProjectWithPOM.SelectInputPageTest'/> -->
+			<!-- <class name='com.obsqura.ProjectWithPOM.SelectInputPageTest'>
+				<methods>
+				<include name = "selectColorAndVerifySelectSingleInputColor"/>
+				</methods>
+			</class> -->
+			<!-- <class name = 'com.obsqura.ProjectWithPOM.SimpleFormTest'>
+			 <methods>
+			   <include name="checkAndverifyDragAndDrop"/>
+			   <include name="enterMessageAndVerifySingleInputField"/>
+			 </methods>
+			</class> -->
+			
+<!-- 			<class name='com.obsqura.ProjectWithPOM.RadioButtonDemoTest'> -->
+<!-- 			<methods> -->
+<!-- 			<include name="verifyRadioButtonsEnabledOrNot"/> -->
+<!-- 			</methods> -->
+<!-- 			</class> -->
+				<class name= "com.obsqura.ProjectWithPOM.OthersDemoTest">
+				 <methods>
+				 	<include name= "checkAndverifyDragAndDrop"/>
+				 </methods>
+				
+				</class>
    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

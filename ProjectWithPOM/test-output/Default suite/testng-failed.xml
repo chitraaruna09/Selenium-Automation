@@ -5,9 +5,9 @@
     <classes>
       <class name="com.obsqura.ProjectWithPOM.SimpleFormTest">
         <methods>
-          <include name="enterMessageAndVerifySingleInputField"/>
           <include name="initializeBrowser"/>
           <include name="browserQuit"/>
+          <include name="enterMessageAndVerifyTwoInputField"/>
         </methods>
       </class> <!-- com.obsqura.ProjectWithPOM.SimpleFormTest -->
     </classes>

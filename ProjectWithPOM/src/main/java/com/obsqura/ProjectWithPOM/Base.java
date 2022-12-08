@@ -1,5 +1,8 @@
 package com.obsqura.ProjectWithPOM;
 
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -14,6 +17,9 @@ public class Base {
 		driver = new ChromeDriver();// driver instantiation
 		driver.get("https://selenium.obsqurazone.com/simple-form-demo.php\\\\");
 		driver.manage().window().maximize(); // window maximizing command
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //this is deprecated
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
 	}
 	//browser close user defined method
 	public void browserClose() {

@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27906" started-at="2022-11-29T19:10:58Z" finished-at="2022-11-29T19:11:26Z">
+  <suite name="Suite" duration-ms="10959" started-at="2022-12-08T19:50:30Z" finished-at="2022-12-08T19:50:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="27906" started-at="2022-11-29T19:10:58Z" finished-at="2022-11-29T19:11:26Z">
-      <class name="com.obsqura.ProjectWithPOM.RadioButtonDemoTest">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.ProjectWithPOM.RadioButtonDemoTest@21213b92]" name="initializeBrowser" is-config="true" duration-ms="4779" started-at="2022-11-29T19:10:58Z" finished-at="2022-11-29T19:11:03Z">
+    <test name="Test" duration-ms="10959" started-at="2022-12-08T19:50:30Z" finished-at="2022-12-08T19:50:41Z">
+      <class name="com.obsqura.ProjectWithPOM.OthersDemoTest">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.ProjectWithPOM.OthersDemoTest@66480dd7]" name="initializeBrowser" is-config="true" duration-ms="4570" started-at="2022-12-08T19:50:30Z" finished-at="2022-12-08T19:50:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="verifyRadioButtonFemaleClickedAndMessageCheck()[pri:0, instance:com.obsqura.ProjectWithPOM.RadioButtonDemoTest@21213b92]" name="verifyRadioButtonFemaleClickedAndMessageCheck" duration-ms="7118" started-at="2022-11-29T19:11:03Z" finished-at="2022-11-29T19:11:10Z">
+        <test-method status="PASS" signature="checkAndverifyDragAndDrop()[pri:0, instance:com.obsqura.ProjectWithPOM.OthersDemoTest@66480dd7]" name="checkAndverifyDragAndDrop" duration-ms="5689" started-at="2022-12-08T19:50:35Z" finished-at="2022-12-08T19:50:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRadioButtonFemaleClickedAndMessageCheck -->
-        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.obsqura.ProjectWithPOM.RadioButtonDemoTest@21213b92]" name="browserQuit" is-config="true" duration-ms="683" started-at="2022-11-29T19:11:10Z" finished-at="2022-11-29T19:11:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.ProjectWithPOM.RadioButtonDemoTest@21213b92]" name="initializeBrowser" is-config="true" duration-ms="3562" started-at="2022-11-29T19:11:11Z" finished-at="2022-11-29T19:11:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="verifyRadioButtonMaleClickedAndMessageCheck()[pri:0, instance:com.obsqura.ProjectWithPOM.RadioButtonDemoTest@21213b92]" name="verifyRadioButtonMaleClickedAndMessageCheck" duration-ms="3300" started-at="2022-11-29T19:11:14Z" finished-at="2022-11-29T19:11:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRadioButtonMaleClickedAndMessageCheck -->
-        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.obsqura.ProjectWithPOM.RadioButtonDemoTest@21213b92]" name="browserQuit" is-config="true" duration-ms="655" started-at="2022-11-29T19:11:17Z" finished-at="2022-11-29T19:11:18Z">
+        </test-method> <!-- checkAndverifyDragAndDrop -->
+        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.obsqura.ProjectWithPOM.OthersDemoTest@66480dd7]" name="browserQuit" is-config="true" duration-ms="678" started-at="2022-12-08T19:50:40Z" finished-at="2022-12-08T19:50:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.ProjectWithPOM.RadioButtonDemoTest@21213b92]" name="initializeBrowser" is-config="true" duration-ms="3524" started-at="2022-11-29T19:11:18Z" finished-at="2022-11-29T19:11:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="verifyRadioButtonsEnabledOrNot()[pri:0, instance:com.obsqura.ProjectWithPOM.RadioButtonDemoTest@21213b92]" name="verifyRadioButtonsEnabledOrNot" duration-ms="3645" started-at="2022-11-29T19:11:22Z" finished-at="2022-11-29T19:11:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRadioButtonsEnabledOrNot -->
-        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.obsqura.ProjectWithPOM.RadioButtonDemoTest@21213b92]" name="browserQuit" is-config="true" duration-ms="624" started-at="2022-11-29T19:11:25Z" finished-at="2022-11-29T19:11:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-      </class> <!-- com.obsqura.ProjectWithPOM.RadioButtonDemoTest -->
+      </class> <!-- com.obsqura.ProjectWithPOM.OthersDemoTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.obsqura.ProjectWithPOM.RadioButtonDemoTest" hash-for-method="verifyRadioButtonFemaleClickedAndMessageCheck">verifyRadioButtonFemaleClickedAndMessageCheck</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.obsqura.ProjectWithPOM.RadioButtonDemoTest" hash-for-method="verifyRadioButtonMaleClickedAndMessageCheck">verifyRadioButtonMaleClickedAndMessageCheck</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.obsqura.ProjectWithPOM.RadioButtonDemoTest" hash-for-method="verifyRadioButtonsEnabledOrNot">verifyRadioButtonsEnabledOrNot</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.obsqura.ProjectWithPOM.OthersDemoTest" hash-for-method="checkAndverifyDragAndDrop">checkAndverifyDragAndDrop</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -130,28 +120,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.obsqura.ProjectWithPOM.RadioButtonDemoTest</span>
+              <span class="class-name">com.obsqura.ProjectWithPOM.OthersDemoTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyRadioButtonFemaleClickedAndMessageCheck">
-                  </a> <!-- verifyRadioButtonFemaleClickedAndMessageCheck -->
-                  <span class="method-name">verifyRadioButtonFemaleClickedAndMessageCheck</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyRadioButtonMaleClickedAndMessageCheck">
-                  </a> <!-- verifyRadioButtonMaleClickedAndMessageCheck -->
-                  <span class="method-name">verifyRadioButtonMaleClickedAndMessageCheck</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyRadioButtonsEnabledOrNot">
-                  </a> <!-- verifyRadioButtonsEnabledOrNot -->
-                  <span class="method-name">verifyRadioButtonsEnabledOrNot</span>
+                  <a name="checkAndverifyDragAndDrop">
+                  </a> <!-- checkAndverifyDragAndDrop -->
+                  <span class="method-name">checkAndverifyDragAndDrop</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -168,7 +144,11 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.obsqura.ProjectWithPOM.RadioButtonDemoTest&quot;/&gt;
+      &lt;class name=&quot;com.obsqura.ProjectWithPOM.OthersDemoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;checkAndverifyDragAndDrop&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.obsqura.ProjectWithPOM.OthersDemoTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -208,24 +188,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyRadioButtonFemaleClickedAndMessageCheck')
-data.setCell(0, 2, 'com.obsqura.ProjectWithPOM.RadioButtonDemoTest')
-data.setCell(0, 3, 7118);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyRadioButtonsEnabledOrNot')
-data.setCell(1, 2, 'com.obsqura.ProjectWithPOM.RadioButtonDemoTest')
-data.setCell(1, 3, 3645);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyRadioButtonMaleClickedAndMessageCheck')
-data.setCell(2, 2, 'com.obsqura.ProjectWithPOM.RadioButtonDemoTest')
-data.setCell(2, 3, 3300);
+data.setCell(0, 1, 'checkAndverifyDragAndDrop')
+data.setCell(0, 2, 'com.obsqura.ProjectWithPOM.OthersDemoTest')
+data.setCell(0, 3, 5689);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -251,42 +223,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.obsqura.ProjectWithPOM.RadioButtonDemoTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.obsqura.ProjectWithPOM.OthersDemoTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initializeBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyRadioButtonFemaleClickedAndMessageCheck</span>
-                <span class="method-start">4779 ms</span>
+                <span class="method-name">checkAndverifyDragAndDrop</span>
+                <span class="method-start">4571 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserQuit</span>
-                <span class="method-start">11897 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeBrowser</span>
-                <span class="method-start">12580 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyRadioButtonMaleClickedAndMessageCheck</span>
-                <span class="method-start">16142 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">browserQuit</span>
-                <span class="method-start">19442 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeBrowser</span>
-                <span class="method-start">20097 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyRadioButtonsEnabledOrNot</span>
-                <span class="method-start">23621 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">browserQuit</span>
-                <span class="method-start">27266 ms</span>
+                <span class="method-start">10262 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

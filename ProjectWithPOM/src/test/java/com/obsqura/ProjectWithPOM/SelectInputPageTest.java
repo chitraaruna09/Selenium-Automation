@@ -9,13 +9,13 @@ import Pages.SelectInputPage;
 public class SelectInputPageTest extends Base{
 	SelectInputPage selectInputPageObj;
 	
-	@Test
+	@Test (groups = {"regression"})
 	public void selectColorAndVerifySelectMultipleInputColor() throws IOException {
 		SelectInputPage selectInputPageObj = new SelectInputPage(driver);
 		selectInputPageObj.verifySelectMultipleInputColor();
 	}
 	
-	@Test
+	@Test(groups = {"smoke"})
 	public void selectColorAndVerifySelectSingleInputColor() throws IOException {
 		SelectInputPage selectInputPageObj = new SelectInputPage(driver);
 		selectInputPageObj.verifySelectInputPage();

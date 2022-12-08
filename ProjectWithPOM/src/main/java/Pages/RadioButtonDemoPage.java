@@ -4,10 +4,12 @@ import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 import utilities.ExcelUtility;
+import utilities.PageUtility;
 
 public class RadioButtonDemoPage {
 	WebDriver driver;
@@ -32,8 +34,12 @@ public class RadioButtonDemoPage {
 		femaleRadioBtnIsSelected = driver.findElement(femaleRadioButton).isSelected();
 			if(maleRadioBtnIsEnabled && femaleRadioBtnIsEnabled) {
 				if(maleRadioBtnIsSelected && femaleRadioBtnIsSelected) {
-					driver.findElement(showSelectedValueButton).click();
-					actualMessage1 = driver.findElement(actualMessage).getText();
+					//driver.findElement(showSelectedValueButton).click();
+					WebElement ShowSelectedValueButton = driver.findElement(showSelectedValueButton);
+					PageUtility.clickOnElement(ShowSelectedValueButton);
+					//actualMessage1 = driver.findElement(actualMessage).getText();
+					WebElement ActualMessage = driver.findElement(actualMessage);
+					actualMessage1 = PageUtility.getElementText(ActualMessage);
 					expectedMessage = excelUtilityObj.getStringMultiColor(1, 0, "src\\main\\java\\Resources\\SelectPageTestData.xlsx", "RadioButtonDemoTestData");
 					Assert.assertEquals(expectedMessage, actualMessage1, "Expected and Actual Messages are not equal");
 				}

@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.obsqura.ProjectWithPOM.SelectInputPageTest">
+      <class name="com.obsqura.ProjectWithPOM.OthersDemoTest">
         <methods>
-          <include name="selectColorAndVerifySelectSingleInputColor"/>
-          <include name="selectColorAndVerifySelectMultipleInputColor"/>
+          <include name="checkAndverifyDragAndDrop"/>
           <include name="initializeBrowser"/>
           <include name="browserQuit"/>
         </methods>
-      </class> <!-- com.obsqura.ProjectWithPOM.SelectInputPageTest -->
+      </class> <!-- com.obsqura.ProjectWithPOM.OthersDemoTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
