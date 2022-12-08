@@ -1,27 +1,26 @@
 package com.obsqura.TestNGSample;
-
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 
 public class Base {
-	public  WebDriver driver;
-	//user defined method
+	public WebDriver driver;
 	@BeforeMethod
-	public  void initializeBrowser() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aruna\\eclipse-workspace\\TestNGSample\\src\\main\\java\\Resources\\chromedriver.exe");
-		driver = new ChromeDriver();// driver instantiation
-		driver.get("https://www.amazon.in/");  // url loading; BaseUrl loading
-		driver.manage().window().maximize(); // window maximizing command
-	}
-	//browser close user defined method
+	public void initBrowser() {
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"src\\main\\java\\Resources\\chromedriver.exe");
+		driver=new ChromeDriver();
+		driver.get("https://selenium.obsqurazone.com/simple-form-demo.php");
+		//driver.get("https://www.amazon.in/");
+		driver.manage().window().maximize();
+        }
 	public void browserClose() {
-		driver.close(); //window close command
+		driver.close();
 	}
 	@AfterMethod
-	public  void browserQuit() {
+	public void browseQuit() {
 		driver.quit();
 	}
 }

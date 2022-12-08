@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test name="Test">
     <classes>
-      <class name="com.obsqura.TestNGSample.BrowserCommands"/>
+<!--       <class name="com.obsqura.TestNGSample.BrowserCommands"/> -->
+       <class name="com.obsqura.TestNGSample.Locators">
+      <methods>
+<!--       		<exclude name="classLocator"/> -->
+<!--       		<include name="locatingById"/> -->
+<!--       		<include name="locatingByXpathMobliePage"/> -->
+<!--       		<include name="locatingByName"/> -->
+<!--       		<include name="locatingByLinkText"/> -->
+<!-- 				<include name="locateAxesUsingContains"/> -->
+<!-- 				<include name="locateAxesUsingText"/> -->
+<!-- 				<include name="locateAxesUsingOR"/> -->
+<!-- 				<include name="locateAxesUsingAND"/> -->
+				<include name="locateAxesUsingstartsWith"/>
+      	</methods>
+      </class> 
+<!--      <class name="com.obsqura.TestNGSample.WebElementCommands"> -->
+<!--      <methods> -->
+<!-- 	 <exclude name="twoInputFieldWithCharacters"/> -->
+<!--      </methods> -->
+<!--      </class> -->
+<!-- 		<class name="com.obsqura.TestNGSample.ExecutionSpeed"/> -->
+<!-- <class name="com.obsqura.TestNGSample.Locators"/> -->
+<!-- 			<class name="com.obsqura.TestNGSample.CheckingStylesUsingGetCssValue"/> -->
+<!-- <class name="com.obsqura.TestNGSample.ButtonEnableOrNot"/> -->
+<!-- <class name="com.obsqura.TestNGSample.SoftAssertSample"/> -->
+<!-- <class name="com.obsqura.TestNGSample.FindElementsSample"/> -->
+<!-- <class name="com.obsqura.TestNGSample.RadioButtonDemo"/> -->
+<!--  <class name="com.obsqura.TestNGSample.CheckBoxDemoPage"/>  -->
+<!-- <class name="com.obsqura.TestNGSample.GroupRadioButtonsDemo"/> -->
+	<!-- <class name="com.obsqura.TestNGSample.SelectClassDropDown">
+		<methods> 
+		<include name="selectMultiple"/>
+	
+		</methods>
+		</class>> -->
+<!-- <class name="com.obsqura.TestNGSample.MultipleSelectDropDown"/> -->
+<!-- <class name="com.obsqura.TestNGSample.Study"/> -->
+
+<!-- <class name="com.obsqura.TestNGSample.MultipleCheckBox"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
