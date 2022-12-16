@@ -34,12 +34,20 @@
 <!-- 			<include name="verifyRadioButtonsEnabledOrNot"/> -->
 <!-- 			</methods> -->
 <!-- 			</class> -->
-				<class name= "com.obsqura.ProjectWithPOM.OthersDemoTest">
+				<!-- <class name= "com.obsqura.ProjectWithPOM.OthersDemoTest">
 				 <methods>
 				 	<include name= "checkAndverifyDragAndDrop"/>
 				 </methods>
 				
+				</class> -->
+				
+				<class name = 'com.obsqura.ProjectWithPOM.TableTest'>
+					<methods>
+						<include name="verifyTheTableRowCount"/>
+<!-- 						<include name="verifyTheTableColumnCounts"/> -->
+					</methods>
 				</class>
+<!-- 				<class name="com.obsqura.ProjectWithPOM.CommonHeaderMenusTest"/> -->
    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

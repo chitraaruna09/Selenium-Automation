@@ -15,10 +15,10 @@ public class Base {
 	public  void initializeBrowser() {
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\Resources\\chromedriver.exe");
 		driver = new ChromeDriver();// driver instantiation
-		driver.get("https://selenium.obsqurazone.com/simple-form-demo.php\\\\");
+		driver.get("https://selenium.obsqurazone.com/simple-form-demo.php");
 		driver.manage().window().maximize(); // window maximizing command
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //this is deprecated
-		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 	}
 	//browser close user defined method
