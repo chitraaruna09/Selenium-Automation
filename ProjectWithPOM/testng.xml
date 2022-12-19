@@ -2,6 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 <!--   <test thread-count="5" name="Test" parallel ="classes">  -->
+		<!-- <parameter name="firstName" value="Ankita"/>
+  		<parameter name="lastName" value="Roy"/>
+  		<parameter name="userName" value="anki007"/>
+  		<parameter name="city" value="Noida"/>
+  		<parameter name="state" value="Uttar Pradesh"/>
+  		<parameter name="zip" value="601123"/> -->
   <test name="Test">
  <!--  <groups>
   <run>
@@ -41,13 +47,15 @@
 				
 				</class> -->
 				
-				<class name = 'com.obsqura.ProjectWithPOM.TableTest'>
+				<!-- <class name = 'com.obsqura.ProjectWithPOM.TableTest'>
 					<methods>
 						<include name="verifyTheTableRowCount"/>
-<!-- 						<include name="verifyTheTableColumnCounts"/> -->
+						<include name="verifyTheTableColumnCounts"/>
 					</methods>
-				</class>
+				</class> -->
 <!-- 				<class name="com.obsqura.ProjectWithPOM.CommonHeaderMenusTest"/> -->
+				<!-- <class name="com.obsqura.ProjectWithPOM.FormSubmitParameterTest"/> -->
+				<class name= "com.obsqura.ProjectWithPOM.FormSubmitDataProviderTest"/>
    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,6 +1,7 @@
 package Pages;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -21,12 +22,17 @@ public class TablePage {
 	public void tableRowLocate() throws IOException {
 		String expectedField;
 		ExcelUtility excelUtilityObj = new ExcelUtility();
-		expectedField = excelUtilityObj.getStringMultiColor(1, 0, "src\\main\\java\\Resources\\SelectPageTestData.xlsx", "TableData");
+		expectedField = excelUtilityObj.getStringMultiColor(2, 0, "\\src\\main\\java\\Resources\\SelectPageTestData.xlsx", "TableData");
 		List<WebElement> rowElements = driver.findElements(tableRow);
 		int rowCount = rowElements.size();
 		for(WebElement elements: rowElements) {
 			//System.out.println(elements.getText());
-			if(elements.getText().equals(expectedField)) {
+			//break;
+			/*List<String> expectedItems=new ArrayList<String>();
+			expectedItems.add(elements.getText());
+			System.out.println(expectedItems);*/
+
+			if(elements.getText().equalsIgnoreCase(expectedField)) {
 				String actualFieldValues = elements.getText();
 				Assert.assertEquals(actualFieldValues, expectedField, "Table row data is different!");
 				break;

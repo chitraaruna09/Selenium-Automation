@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="zip" value="601123"/>
+  <parameter name="firstName" value="Ankita"/>
+  <parameter name="lastName" value="Roy"/>
+  <parameter name="city" value="Noida"/>
+  <parameter name="state" value="Delhi"/>
+  <parameter name="userName" value="anki007"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.obsqura.ProjectWithPOM.TableTest">
+      <class name="com.obsqura.ProjectWithPOM.FormSubmitParameterTest">
         <methods>
-          <include name="verifyTheTableRowCount"/>
           <include name="initializeBrowser"/>
           <include name="browserQuit"/>
+          <include name="checkAndVerifyTheFormSubmit" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.obsqura.ProjectWithPOM.TableTest -->
+      </class> <!-- com.obsqura.ProjectWithPOM.FormSubmitParameterTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
