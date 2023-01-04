@@ -1,6 +1,9 @@
 package com.obsqura.TestNGSample;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 public class Locators extends Base {
@@ -171,5 +174,10 @@ public class Locators extends Base {
 		outputMessage=driver.findElement(By.xpath("//div[@id='message-one']")).getText();
 		String expectedMessage = "Your Message : "+inputText;
 		Assert.assertEquals(outputMessage, expectedMessage, "Actual and Expected Show Text messages are different");
+	}
+	public void tableRowLocate() {
+		driver.navigate().to("https://selenium.obsqurazone.com/table-pagination.php");
+		List<WebElement> rowElements = driver.findElements(By.xpath("//div[@class='row']"));
+		int rowCount = rowElements.size();
 	}
 }

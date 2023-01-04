@@ -3,24 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.obsqura.TestNGSample.Locators">
+      <class name="com.obsqura.TestNGSample.JavaScriptExecutorCommands">
         <methods>
-          <include name="locatingByXpathMobliePage"/>
-          <include name="locatingById"/>
-          <include name="locateAxesUsingContains"/>
-          <include name="locatingByCssWithTagClass"/>
-          <include name="locatingByCssAttribute"/>
-          <include name="locatingByCssWithTagId"/>
-          <include name="initBrowser"/>
-          <include name="locatingByName"/>
           <include name="browseQuit"/>
-          <include name="locatingByCssWithClass"/>
-          <include name="locatingByXpath"/>
-          <include name="locatingByXpathText"/>
-          <include name="locatingByCssWithId"/>
-          <include name="classLocatorAmazone"/>
+          <include name="scrollCommand"/>
+          <include name="initBrowser"/>
         </methods>
-      </class> <!-- com.obsqura.TestNGSample.Locators -->
+      </class> <!-- com.obsqura.TestNGSample.JavaScriptExecutorCommands -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
