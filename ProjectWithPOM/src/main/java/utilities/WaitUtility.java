@@ -60,4 +60,12 @@ public class WaitUtility {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
+	public static void waitForAlertIsPresent(WebDriver driver) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
+		wait.until(ExpectedConditions.alertIsPresent());
+	}
+	public static void waitForTextToBePresentInElement(WebDriver driver, By locator, String text) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
+		wait.until(ExpectedConditions.textToBePresentInElementLocated(locator, text));
+	}
 }

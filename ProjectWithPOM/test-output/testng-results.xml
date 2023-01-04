@@ -1,101 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13848" started-at="2022-12-19T19:07:01Z" finished-at="2022-12-19T19:07:15Z">
+  <suite name="Suite" duration-ms="9069" started-at="2023-01-04T13:45:37Z" finished-at="2023-01-04T13:45:46Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13848" started-at="2022-12-19T19:07:01Z" finished-at="2022-12-19T19:07:15Z">
-      <class name="com.obsqura.ProjectWithPOM.FormSubmitDataProviderTest">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.ProjectWithPOM.FormSubmitDataProviderTest@a67c67e]" name="initializeBrowser" is-config="true" duration-ms="5805" started-at="2022-12-19T19:07:01Z" finished-at="2022-12-19T19:07:07Z">
+    <test name="Test" duration-ms="9069" started-at="2023-01-04T13:45:37Z" finished-at="2023-01-04T13:45:46Z">
+      <class name="com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest@21213b92]" name="initializeBrowser" is-config="true" duration-ms="7655" started-at="2023-01-04T13:45:37Z" finished-at="2023-01-04T13:45:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="checkAndVerifyTheFormSubmitWithDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.obsqura.ProjectWithPOM.FormSubmitDataProviderTest@a67c67e]" name="checkAndVerifyTheFormSubmitWithDataProvider" duration-ms="1547" started-at="2022-12-19T19:07:07Z" data-provider="DataProvider FormData" finished-at="2022-12-19T19:07:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nirmal]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Das]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[nirmal555]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Kochi]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Kerala]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[682030]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="checktheNormalSuccessAlertBox()[pri:0, instance:com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest@21213b92]" name="checktheNormalSuccessAlertBox" duration-ms="728" started-at="2023-01-04T13:45:45Z" finished-at="2023-01-04T13:45:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkAndVerifyTheFormSubmitWithDataProvider -->
-        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.obsqura.ProjectWithPOM.FormSubmitDataProviderTest@a67c67e]" name="browserQuit" is-config="true" duration-ms="614" started-at="2022-12-19T19:07:09Z" finished-at="2022-12-19T19:07:09Z">
+        </test-method> <!-- checktheNormalSuccessAlertBox -->
+        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest@21213b92]" name="browserQuit" is-config="true" duration-ms="665" started-at="2023-01-04T13:45:45Z" finished-at="2023-01-04T13:45:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.ProjectWithPOM.FormSubmitDataProviderTest@a67c67e]" name="initializeBrowser" is-config="true" duration-ms="3622" started-at="2022-12-19T19:07:09Z" finished-at="2022-12-19T19:07:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="checkAndVerifyTheFormSubmitWithDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.obsqura.ProjectWithPOM.FormSubmitDataProviderTest@a67c67e]" name="checkAndVerifyTheFormSubmitWithDataProvider" duration-ms="1620" started-at="2022-12-19T19:07:13Z" data-provider="DataProvider FormData" finished-at="2022-12-19T19:07:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Aruna]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[chitraaruna09]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Pathanamthitta]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Kerala]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[689664]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkAndVerifyTheFormSubmitWithDataProvider -->
-        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.obsqura.ProjectWithPOM.FormSubmitDataProviderTest@a67c67e]" name="browserQuit" is-config="true" duration-ms="621" started-at="2022-12-19T19:07:14Z" finished-at="2022-12-19T19:07:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-      </class> <!-- com.obsqura.ProjectWithPOM.FormSubmitDataProviderTest -->
+      </class> <!-- com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

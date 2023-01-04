@@ -55,7 +55,16 @@
 				</class> -->
 <!-- 				<class name="com.obsqura.ProjectWithPOM.CommonHeaderMenusTest"/> -->
 				<!-- <class name="com.obsqura.ProjectWithPOM.FormSubmitParameterTest"/> -->
-				<class name= "com.obsqura.ProjectWithPOM.FormSubmitDataProviderTest"/>
+				<!-- <class name= "com.obsqura.ProjectWithPOM.FormSubmitDataProviderTest"/> -->
+				<!-- <class name= "com.obsqura.ProjectWithPOM.AlertBoxSampleTest">
+					<methods>
+						<include name="verifyAlertBoxBtnOKClick"/>
+						<include name="verifyAlertBoxGetText"/>
+						<include name="verifyAlertBoxBtnCancelClick"/>
+						<include name="verifyAlertBoxClickPrompt"/>
+					</methods>
+				</class> -->
+				<class name= "com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest"/>
    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

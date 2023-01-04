@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="zip" value="601123"/>
-  <parameter name="firstName" value="Ankita"/>
-  <parameter name="lastName" value="Roy"/>
-  <parameter name="city" value="Noida"/>
-  <parameter name="state" value="Delhi"/>
-  <parameter name="userName" value="anki007"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.obsqura.ProjectWithPOM.FormSubmitParameterTest">
+      <class name="com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest">
         <methods>
+          <include name="checktheNormalSuccessAlertBox"/>
           <include name="initializeBrowser"/>
           <include name="browserQuit"/>
-          <include name="checkAndVerifyTheFormSubmit" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.obsqura.ProjectWithPOM.FormSubmitParameterTest -->
+      </class> <!-- com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
