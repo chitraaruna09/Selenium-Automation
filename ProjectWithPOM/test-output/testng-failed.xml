@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest">
+      <class name="com.obsqura.ProjectWithPOM.SimpleFormDemoPageFactoryTest">
         <methods>
-          <include name="checktheNormalSuccessAlertBox"/>
+          <include name="enterMessageAndVerifySingleInputField"/>
           <include name="initializeBrowser"/>
           <include name="browserQuit"/>
         </methods>
-      </class> <!-- com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest -->
+      </class> <!-- com.obsqura.ProjectWithPOM.SimpleFormDemoPageFactoryTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -9,19 +9,19 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WaitUtility {
-	public static final long IMPLICIT_WAIT = 20;
+		
+	public static final long IMPLICIT_WAIT = 10;
 	public static final long PAGE_LOAD_WAIT = 20;
 	public static final long EXPLICIT_WAIT = 50;
 	public static final long FLUENT_WAIT = 20;
 	
-	
+		
 	public enum LocatorType {
 		Id, Xpath, CssSelector, Linktext, PartiallinkText, Tagname, Name, ClassName;
 	}
 
 	public static void waitForElement(WebDriver driver, WebElement target) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
-		 
 			wait.until(ExpectedConditions.visibilityOf(target));
 	}
 	
@@ -59,6 +59,10 @@ public class WaitUtility {
 	public static void waitForVisibilityOfElementLocated(WebDriver driver, By locator) {		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+	}
+	public static void waitForVisibilityOfElementLocated(WebDriver driver, WebElement element) {			
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
+		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 	public static void waitForAlertIsPresent(WebDriver driver) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));

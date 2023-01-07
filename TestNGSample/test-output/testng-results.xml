@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9789" started-at="2023-01-04T19:31:44Z" finished-at="2023-01-04T19:31:54Z">
+  <suite name="Suite" duration-ms="26426" started-at="2023-01-07T18:28:32Z" finished-at="2023-01-07T18:28:59Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9789" started-at="2023-01-04T19:31:44Z" finished-at="2023-01-04T19:31:54Z">
-      <class name="com.obsqura.TestNGSample.DownloadFileObsquraSiteSample">
-        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.obsqura.TestNGSample.DownloadFileObsquraSiteSample@64bf3bbf]" name="initBrowser" is-config="true" duration-ms="5361" started-at="2023-01-04T19:31:44Z" finished-at="2023-01-04T19:31:49Z">
+    <test name="Test" duration-ms="26426" started-at="2023-01-07T18:28:32Z" finished-at="2023-01-07T18:28:59Z">
+      <class name="com.obsqura.TestNGSample.FindElementsSample1">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.obsqura.TestNGSample.FindElementsSample1@64bf3bbf]" name="initBrowser" is-config="true" duration-ms="6195" started-at="2023-01-07T18:28:32Z" finished-at="2023-01-07T18:28:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method status="PASS" signature="downloadFile()[pri:0, instance:com.obsqura.TestNGSample.DownloadFileObsquraSiteSample@64bf3bbf]" name="downloadFile" duration-ms="3834" started-at="2023-01-04T19:31:49Z" finished-at="2023-01-04T19:31:53Z">
+        <test-method status="PASS" signature="radioButtonMale()[pri:0, instance:com.obsqura.TestNGSample.FindElementsSample1@64bf3bbf]" name="radioButtonMale" duration-ms="624" started-at="2023-01-07T18:28:39Z" finished-at="2023-01-07T18:28:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- downloadFile -->
-        <test-method status="PASS" signature="browseQuit()[pri:0, instance:com.obsqura.TestNGSample.DownloadFileObsquraSiteSample@64bf3bbf]" name="browseQuit" is-config="true" duration-ms="588" started-at="2023-01-04T19:31:53Z" finished-at="2023-01-04T19:31:54Z">
+        </test-method> <!-- radioButtonMale -->
+        <test-method status="PASS" signature="browseQuit()[pri:0, instance:com.obsqura.TestNGSample.FindElementsSample1@64bf3bbf]" name="browseQuit" is-config="true" duration-ms="643" started-at="2023-01-07T18:28:39Z" finished-at="2023-01-07T18:28:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browseQuit -->
-      </class> <!-- com.obsqura.TestNGSample.DownloadFileObsquraSiteSample -->
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.obsqura.TestNGSample.FindElementsSample1@64bf3bbf]" name="initBrowser" is-config="true" duration-ms="4287" started-at="2023-01-07T18:28:40Z" finished-at="2023-01-07T18:28:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="radioSelection()[pri:0, instance:com.obsqura.TestNGSample.FindElementsSample1@64bf3bbf]" name="radioSelection" duration-ms="640" started-at="2023-01-07T18:28:44Z" finished-at="2023-01-07T18:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioSelection -->
+        <test-method status="PASS" signature="browseQuit()[pri:0, instance:com.obsqura.TestNGSample.FindElementsSample1@64bf3bbf]" name="browseQuit" is-config="true" duration-ms="605" started-at="2023-01-07T18:28:45Z" finished-at="2023-01-07T18:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseQuit -->
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.obsqura.TestNGSample.FindElementsSample1@64bf3bbf]" name="initBrowser" is-config="true" duration-ms="5849" started-at="2023-01-07T18:28:45Z" finished-at="2023-01-07T18:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="radioButtonFemale()[pri:0, instance:com.obsqura.TestNGSample.FindElementsSample1@64bf3bbf]" name="radioButtonFemale" duration-ms="646" started-at="2023-01-07T18:28:51Z" finished-at="2023-01-07T18:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioButtonFemale -->
+        <test-method status="PASS" signature="browseQuit()[pri:0, instance:com.obsqura.TestNGSample.FindElementsSample1@64bf3bbf]" name="browseQuit" is-config="true" duration-ms="617" started-at="2023-01-07T18:28:52Z" finished-at="2023-01-07T18:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseQuit -->
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.obsqura.TestNGSample.FindElementsSample1@64bf3bbf]" name="initBrowser" is-config="true" duration-ms="4985" started-at="2023-01-07T18:28:52Z" finished-at="2023-01-07T18:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="findElements()[pri:0, instance:com.obsqura.TestNGSample.FindElementsSample1@64bf3bbf]" name="findElements" duration-ms="686" started-at="2023-01-07T18:28:57Z" depends-on-methods="com.obsqura.TestNGSample.FindElementsSample1.radioButtonMale, com.obsqura.TestNGSample.FindElementsSample1.radioSelection" finished-at="2023-01-07T18:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findElements -->
+        <test-method status="PASS" signature="browseQuit()[pri:0, instance:com.obsqura.TestNGSample.FindElementsSample1@64bf3bbf]" name="browseQuit" is-config="true" duration-ms="628" started-at="2023-01-07T18:28:58Z" finished-at="2023-01-07T18:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseQuit -->
+      </class> <!-- com.obsqura.TestNGSample.FindElementsSample1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

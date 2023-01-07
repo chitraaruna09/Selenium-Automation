@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.obsqura.TestNGSample.FileUploadAutoItSample">
+      <class name="com.obsqura.TestNGSample.SelectClassDropDown">
         <methods>
           <include name="browseQuit"/>
-          <include name="fileUploadAutoIt"/>
+          <include name="selectByOption"/>
           <include name="initBrowser"/>
         </methods>
-      </class> <!-- com.obsqura.TestNGSample.FileUploadAutoItSample -->
+      </class> <!-- com.obsqura.TestNGSample.SelectClassDropDown -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

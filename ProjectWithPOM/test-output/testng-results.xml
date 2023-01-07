@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9069" started-at="2023-01-04T13:45:37Z" finished-at="2023-01-04T13:45:46Z">
+  <suite name="Suite" duration-ms="7434" started-at="2023-01-07T18:42:55Z" finished-at="2023-01-07T18:43:02Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9069" started-at="2023-01-04T13:45:37Z" finished-at="2023-01-04T13:45:46Z">
-      <class name="com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest@21213b92]" name="initializeBrowser" is-config="true" duration-ms="7655" started-at="2023-01-04T13:45:37Z" finished-at="2023-01-04T13:45:45Z">
+    <test name="Test" duration-ms="7434" started-at="2023-01-07T18:42:55Z" finished-at="2023-01-07T18:43:02Z">
+      <class name="com.obsqura.ProjectWithPOM.SimpleFormDemoPageFactoryTest">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.ProjectWithPOM.SimpleFormDemoPageFactoryTest@21213b92]" name="initializeBrowser" is-config="true" duration-ms="6388" started-at="2023-01-07T18:42:55Z" finished-at="2023-01-07T18:43:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="checktheNormalSuccessAlertBox()[pri:0, instance:com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest@21213b92]" name="checktheNormalSuccessAlertBox" duration-ms="728" started-at="2023-01-04T13:45:45Z" finished-at="2023-01-04T13:45:45Z">
+        <test-method status="PASS" signature="enterMessageAndVerifySingleInputField()[pri:0, instance:com.obsqura.ProjectWithPOM.SimpleFormDemoPageFactoryTest@21213b92]" name="enterMessageAndVerifySingleInputField" duration-ms="406" started-at="2023-01-07T18:43:01Z" finished-at="2023-01-07T18:43:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checktheNormalSuccessAlertBox -->
-        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest@21213b92]" name="browserQuit" is-config="true" duration-ms="665" started-at="2023-01-04T13:45:45Z" finished-at="2023-01-04T13:45:46Z">
+        </test-method> <!-- enterMessageAndVerifySingleInputField -->
+        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.obsqura.ProjectWithPOM.SimpleFormDemoPageFactoryTest@21213b92]" name="browserQuit" is-config="true" duration-ms="632" started-at="2023-01-07T18:43:01Z" finished-at="2023-01-07T18:43:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-      </class> <!-- com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest -->
+      </class> <!-- com.obsqura.ProjectWithPOM.SimpleFormDemoPageFactoryTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

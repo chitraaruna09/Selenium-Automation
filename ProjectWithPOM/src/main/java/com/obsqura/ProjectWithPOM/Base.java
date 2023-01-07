@@ -8,14 +8,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import constants.Constants;
+import utilities.WaitUtility;
 
 public class Base {
 	public  WebDriver driver;
 	public Properties prop,prop1;
 	public FileInputStream fs,fs1;
 	//user defined method
-	@BeforeMethod
-		public  void initializeBrowser() {
+	@BeforeMethod(alwaysRun=true)
+		public void initializeBrowser() {
 			prop=new Properties();
 			try {
 				fs = new FileInputStream(System.getProperty("user.dir") +constants.Constants.CONFIGfILE);
@@ -45,9 +46,10 @@ public class Base {
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\Resources\\chromedriver.exe");
 		driver = new ChromeDriver();// driver instantiation
 		driver.get("https://selenium.obsqurazone.com/simple-form-demo.php");
+		//driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize(); // window maximizing command
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //this is deprecated
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(WaitUtility.IMPLICIT_WAIT));
 
 	}
 	//browser close user defined method

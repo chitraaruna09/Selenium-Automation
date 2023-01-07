@@ -34,12 +34,12 @@
 <!-- <class name="com.obsqura.TestNGSample.RadioButtonDemo"/> -->
 <!--  <class name="com.obsqura.TestNGSample.CheckBoxDemoPage"/>  -->
 <!-- <class name="com.obsqura.TestNGSample.GroupRadioButtonsDemo"/> -->
-	<!-- <class name="com.obsqura.TestNGSample.SelectClassDropDown">
+<!-- 	<class name="com.obsqura.TestNGSample.SelectClassDropDown">
 		<methods> 
 		<include name="selectMultiple"/>
 	
 		</methods>
-		</class>> -->
+		</class> -->
 <!-- <class name="com.obsqura.TestNGSample.MultipleSelectDropDown"/> -->
 <!-- <class name="com.obsqura.TestNGSample.Study"/> -->
 
@@ -55,7 +55,8 @@
 		<!-- <class name= "com.obsqura.TestNGSample.FileUploadSample"/> -->
 		<!-- <class name= "com.obsqura.TestNGSample.FileUploadAutoItSample"/> -->
 		<!-- <class name= "com.obsqura.TestNGSample.DownloadingFilesSample"/> -->
-		<class name= "com.obsqura.TestNGSample.DownloadFileObsquraSiteSample"/>
+		<!-- <class name= "com.obsqura.TestNGSample.DownloadFileObsquraSiteSample"/> -->
+		<class name= "com.obsqura.TestNGSample.FindElementsSample1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

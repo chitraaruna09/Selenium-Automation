@@ -64,7 +64,8 @@
 						<include name="verifyAlertBoxClickPrompt"/>
 					</methods>
 				</class> -->
-				<class name= "com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest"/>
+				<!-- <class name= "com.obsqura.ProjectWithPOM.BootStrapAlertBoxTest"/> -->
+				<class name= "com.obsqura.ProjectWithPOM.SimpleFormDemoPageFactoryTest"/>
    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
